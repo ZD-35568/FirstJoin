@@ -1,0 +1,41 @@
+#=====================================================================================================
+#=====================================================================================================
+#=====================================================================================================
+#=====================================================================================================
+#Welcome message
+#Player name in the message %player%
+JoinMessage: true
+welcomeMessage: 'Welcome to the server %player%. I`m First Join Plugin FJ.'
+#
+OnlyOneCommandExecute: false
+OOCommand:
+  - 'say I`m ONLY ONE FIRST COMMAND %player% this is our UUID: %uuid%'
+  -
+#  %player%  %uuid%
+FirstJoinCommand: false
+FJCommand:
+  - 'say I`m FIRST Join Command %player% this is our UUID: %uuid%'
+  -
+JoinCommand: false
+JCommand:
+  - 'say I`m Join Command %player% this is our UUID: %uuid%'
+  -
+#
+#
+#=========MySQL Connection=========
+MySQL: false
+server: 'localhost'
+port: '3306'
+database: 'FirstJoin'
+user: 'FirstJoin'
+password: 'password'
+#==================================
+useSSL: 'false'
+characterEncoding: 'utf8'
+serverTimezone: 'UTC'
+#==================================
+#
+#
+#
+#Warning if more user First Join the same IP
+warningIP: false

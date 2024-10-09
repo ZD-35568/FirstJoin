@@ -1,0 +1,31 @@
+name: FirstJoin
+main: pl.hazam.FirstJoin
+version: 00.45/05/2023
+website: www.hazam.pl/FirstJoin
+description: Prosty plugin witający, wykonujący komendy z listy w ustawieniach i zapisujące podstawowe dane gracza w bazie danych takie jak IP, data logowania, nazwa, UUID itp.
+author: Mikołaj Amadeusz Wojtusik
+api-version: 1.19
+commands:
+  FJ:
+    description: Pobieranie i wyświetlanie uuid NA DANYM SERWERZE wybranego gracza.
+    usage: /FJ <subcommand>
+    aliases:
+      - 'FJ'
+      - 'FJ help'
+      - 'FJ uuid'
+      - 'FJ reload'
+      - 'FJ show'
+      - 'FJ reset first join command stat confirm'
+    subcommands:
+      help:
+        description: Pomoc z komendami dla FJ.
+        usage: /FJ help
+      uuid:
+        description: --
+        usage: /FJ uuid
+      show:
+        description: --
+        usage: /FJ show
+      reset first join command stat confirm:
+        description: --
+        usage: /FJ first join command stat confirm

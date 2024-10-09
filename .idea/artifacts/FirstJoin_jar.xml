@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FirstJoin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FirstJoin_jar</output-path>
+    <root id="archive" name="FirstJoin.jar">
+      <element id="module-output" name="FirstJoin" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
